@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sriram Media | Premium Creative Media & Technology Agency</title>
+  <meta name="description" content="Sriram Media is a next-generation creative agency crafting high-end 3D CGI product renders, premium video editing, branding identity, and interactive web experiences.">
+  
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Three.js Canvas Container -->
+  <div id="three-container"></div>
+  <div class="hero-overlay"></div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <a href="#home" class="logo">
+      <div class="logo-text">SRIRAM<span>MEDIA</span></div>
+    </a>
+    
+    <button class="menu-toggle" aria-label="Toggle Navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#calculator">Estimator</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Get Quote</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-tagline">Next-Gen Media Agency</div>
+      <h1 class="title-3d">
+        <span>We Craft</span>
+        <span class="highlight">Visual Gold</span>
+      </h1>
+      <p class="hero-subtitle">High-end video editing, 3D CGI production, premium web platforms, and brand aesthetics designed to command attention and drive conversions.</p>
+      
+      <div class="btn-container">
+        <a href="#portfolio" class="btn-primary">View Work</a>
+        <a href="#calculator" class="btn-secondary">Estimate Project</a>
+      </div>
+      
+      <a href="#about" class="scroll-indicator">
+        <p>Scroll Down</p>
+        <div class="mouse-icon">
+          <div class="mouse-wheel"></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <h3>We are visual storytellers, tech innovators, and digital artisans.</h3>
+        <p>At Sriram Media, we push the boundaries of digital content. We fuse cutting-edge 3D technology with premium cinematography and sleek web engineering to construct masterpieces that leave an indelible mark.</p>
+        <div class="about-highlight">"Design is not just what it looks like and feels like. Design is how it works."</div>
+        <p>From viral short-form content to full-scale immersive websites and hyper-realistic CGI campaigns, we provide the ultimate creative suite for brands who refuse to be ordinary.</p>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="150" data-suffix="+">0</div>
+          <div class="stat-label">Clients Served</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="850" data-suffix="+">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="100" data-suffix="M+">0</div>
+          <div class="stat-label">Video Views</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="15" data-suffix="+">0</div>
+          <div class="stat-label">Awards Won</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      
+      <!-- Service 1: Branding -->
+      <div class="service-card">
+        <div class="service-icon">
+          <!-- Branding Icon (Pen tool/Identity) -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 20h9"></path>
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+          </svg>
+        </div>
+        <h3>Branding & Logos</h3>
+        <p>Establish a commanding presence. We construct distinct corporate identities, custom vector logos, typography systems, and cohesive branding guidelines.</p>
+        <ul class="service-features">
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Custom Logo Design
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Color & Typography Systems
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Brand Style Guides
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Marketing Collaterals
+          </li>
+        </ul>
+        <div class="service-footer">
+          <div class="service-price">
+            <span>Starting from</span>
+            <span>₹6,999</span>
+          </div>
+          <a href="#calculator" class="service-link">
+            Estimate
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 2: CGI -->
+      <div class="service-card">
+        <div class="service-icon">
+          <!-- Cube/3D Icon -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+          </svg>
+        </div>
+        <h3>3D CGI & VFX</h3>
+        <p>Defy gravity and reality. We design high-fidelity 3D product animations, virtual simulations, VFX integration, and attention-grabbing commercial renders.</p>
+        <ul class="service-features">
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Product Renders & Modeling
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Fluid & Physics Simulations
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Dynamic VFX Compositing
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            4K Production Exports
+          </li>
+        </ul>
+        <div class="service-footer">
+          <div class="service-price">
+            <span>Starting from</span>
+            <span>₹9,999</span>
+          </div>
+          <a href="#calculator" class="service-link">
+            Estimate
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 3: Web Experiences -->
+      <div class="service-card">
+        <div class="service-icon">
+          <!-- Code Icon -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+        <h3>Web Experiences</h3>
+        <p>Build your digital flagship. We code fast, responsive, and immersive web apps with smooth micro-interactions and interactive 3D elements.</p>
+        <ul class="service-features">
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Interactive Animations
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Fully Responsive Layouts
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            SEO & Performance Tuned
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            CMS & Admin Panels
+          </li>
+        </ul>
+        <div class="service-footer">
+          <div class="service-price">
+            <span>Starting from</span>
+            <span>₹14,999</span>
+          </div>
+          <a href="#calculator" class="service-link">
+            Estimate
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    
+    <!-- Category Filters -->
+    <div class="portfolio-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="cgi">3D CGI</button>
+      <button class="filter-btn" data-filter="web">Websites</button>
+    </div>
+    
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid">
+      
+      <!-- Portfolio Item 1: CGI -->
+      <div class="portfolio-item" data-category="cgi">
+        <div class="portfolio-image-wrapper">
+          <img src="images/portfolio_1.png" alt="Future Sphere 3D Animation">
+          <div class="portfolio-overlay">
+            <div class="portfolio-icon">
+              <!-- Eye/View Icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <span>3D CGI</span>
+          <h4>Future Sphere</h4>
+        </div>
+      </div>
+
+      <!-- Portfolio Item 2: Branding -->
+      <div class="portfolio-item" data-category="branding">
+        <div class="portfolio-image-wrapper">
+          <img src="images/portfolio_2.png" alt="Zenith Brand Identity Guide">
+          <div class="portfolio-overlay">
+            <div class="portfolio-icon">
+              <!-- Eye/View Icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <span>Branding</span>
+          <h4>Zenith Identity</h4>
+        </div>
+      </div>
+
+      <!-- Portfolio Item 3: Web -->
+      <div class="portfolio-item" data-category="web">
+        <div class="portfolio-image-wrapper">
+          <img src="images/portfolio_3.png" alt="Aether Immersive Web Portal">
+          <div class="portfolio-overlay">
+            <div class="portfolio-icon">
+              <!-- Eye/View Icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <span>Websites</span>
+          <h4>Aether Portal</h4>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+      <span class="lightbox-close">&times;</span>
+      <img src="" alt="Lightbox Image">
+      <span class="lightbox-arrow prev">&#10094;</span>
+      <span class="lightbox-arrow next">&#10095;</span>
+      <div class="lightbox-caption">
+        <h4></h4>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cost Estimator / Calculator Section -->
+  <section id="calculator" class="section">
+    <h2>Cost Estimator</h2>
+    <div class="calculator-container">
+      
+      <!-- Calculator Controls -->
+      <div class="calculator-controls">
+        
+        <!-- Social Media Posts Range Slider -->
+        <div class="calc-group">
+          <label for="posts-range">
+            Social Media Posts
+            <span class="calc-val-display" id="posts-val">0</span>
+          </label>
+          <input type="range" id="posts-range" min="0" max="30" value="0">
+        </div>
+
+        <!-- Reels Range Slider -->
+        <div class="calc-group">
+          <label for="reels-range">
+            3D Reels / Short Videos
+            <span class="calc-val-display" id="reels-val">0</span>
+          </label>
+          <input type="range" id="reels-range" min="0" max="15" value="0">
+        </div>
+
+        <!-- Add-on Toggles -->
+        <div class="calc-group">
+          <label>Add-on Services</label>
+          <div class="calc-services-toggles">
+            
+            <!-- Logo Service Card -->
+            <div class="toggle-card" data-service="logo">
+              <div class="toggle-checkbox">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="toggle-label">
+                <span class="toggle-title">Brand Identity Suite</span>
+                <span class="toggle-price">+₹6,999</span>
+              </div>
+            </div>
+
+            <!-- CGI Service Card -->
+            <div class="toggle-card" data-service="cgi">
+              <div class="toggle-checkbox">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="toggle-label">
+                <span class="toggle-title">3D CGI Product Mockup</span>
+                <span class="toggle-price">+₹9,999</span>
+              </div>
+            </div>
+
+            <!-- Web Service Card -->
+            <div class="toggle-card" data-service="web">
+              <div class="toggle-checkbox">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="toggle-label">
+                <span class="toggle-title">Immersive Web Platform</span>
+                <span class="toggle-price">+₹14,999</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Result Card -->
+      <div class="calculator-result">
+        <div class="calc-result-title">Estimated Total</div>
+        <div class="calc-price-display" id="calc-total">₹0</div>
+        <div class="calc-price-period">Custom monthly options & retainers available</div>
+        
+        <!-- Detailed Breakdown -->
+        <div class="calc-breakdown" id="calc-breakdown-rows">
+          <div class="breakdown-row">
+            <span>Select services above to calculate quote</span>
+            <span>₹0</span>
+          </div>
+        </div>
+        
+        <button class="calc-btn" id="calc-submit-btn">Consult a Designer / Get Quote</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section">
+    <h2>Client Stories</h2>
+    <div class="testimonials-grid">
+      
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <!-- Star SVGs (5 stars) -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </div>
+        <p class="testimonial-quote">"Sriram Media took our product launch to another level. The CGI teaser they created generated over 10M views on Instagram in less than a week. Absolutely phenomenal quality!"</p>
+        <div class="testimonial-user">
+          <div class="testimonial-avatar">AD</div>
+          <div class="testimonial-user-info">
+            <h4>Aman Dev</h4>
+            <p>Founder, Volt Energy</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </div>
+        <p class="testimonial-quote">"The custom interactive website Sriram Media built for us is a work of art. The animations are silky smooth, and the design perfectly aligns with our luxury brand image."</p>
+        <div class="testimonial-user">
+          <div class="testimonial-avatar">RK</div>
+          <div class="testimonial-user-info">
+            <h4>Rohan Kapoor</h4>
+            <p>Director, Aether Living</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </div>
+        <p class="testimonial-quote">"Outstanding branding and social media creatives. They managed our visual identity seamlessly and scaled our online engagement. Highly recommended agency!"</p>
+        <div class="testimonial-user">
+          <div class="testimonial-avatar">SN</div>
+          <div class="testimonial-user-info">
+            <h4>Shreya Nair</h4>
+            <p>Marketing Head, Zenith Group</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Get In Touch</h2>
+    <div class="contact-container">
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="contact-info-text">
+          <h3>Let's collaborate on something extraordinary.</h3>
+          <p>Have an idea or a project in mind? Reach out to us, and let's craft visual excellence together. We respond within 24 hours.</p>
+        </div>
+        
+        <div class="contact-methods">
+          
+          <!-- Email Method -->
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="contact-method-details">
+              <h4>Email Us</h4>
+              <p>hello@srirammedia.com</p>
+            </div>
+          </div>
+
+          <!-- Phone Method -->
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div class="contact-method-details">
+              <h4>Call Us</h4>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+
+          <!-- Studio Location -->
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="contact-method-details">
+              <h4>Our Studio</h4>
+              <p>Mumbai, Maharashtra, India</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper">
+        <form id="agency-contact-form" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="form-name">Name</label>
+              <input type="text" id="form-name" class="form-control" placeholder="Aman Dev" required>
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email</label>
+              <input type="email" id="form-email" class="form-control" placeholder="aman@volt.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form-message">Message</label>
+            <textarea id="form-message" class="form-control" placeholder="Tell us about your project goals..." required></textarea>
+          </div>
+          <button type="submit" class="form-btn">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <div class="logo-text">SRIRAM<span>MEDIA</span></div>
+        </a>
+        <p>Next-generation creative agency crafting visual excellence through high-end content creation, 3D CGI product renders, and responsive web experiences.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Branding & Logos</a></li>
+          <li><a href="#services">3D CGI & VFX</a></li>
+          <li><a href="#services">Web Experiences</a></li>
+          <li><a href="#services">Video Campaigns</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#calculator">Estimate Quote</a></li>
+          <li><a href="#contact">Contact Support</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sriram Media. All rights reserved.</p>
+      <p>Designed & Crafted by Sriram Media Team</p>
+    </div>
+  </footer>
+
+  <!-- Scripts: Three.js CDN then Main Logic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
